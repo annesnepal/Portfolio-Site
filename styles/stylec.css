@@ -226,8 +226,6 @@ section {
   flex-direction: column;
   justify-content: center;
   padding-right: 18rem;
-  text-align: justify;
-  text-justify: inter-word;
 }
 .header-content .right-header .hello {
   font-size: 2rem;
@@ -242,6 +240,10 @@ section {
   margin: 1.5rem 0;
   line-height: 200%;
   padding: 0;
+}
+.header-content .right-header p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*About Section*/
